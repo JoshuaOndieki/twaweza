@@ -1,0 +1,152 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    background-image: url("../static/lions.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+
+header{
+    background-color: #00800087;
+    height: 52px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+
+}
+
+header>a{
+    float: left;
+}
+
+#showhidebar {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+nav{
+    position: absolute;
+    margin: 15px;
+    margin-left: 20%;
+    height: auto;
+    width: 450px;
+}
+
+nav>a{
+    margin: 7px;
+}
+
+#sidebar{
+
+}
+
+article{
+    background-color: #00000085;
+    width: 40%;
+    margin: auto;
+    align-content: center;
+    color: white;
+    margin-top: 2%;
+
+}
+
+article>h1, article>p{
+    text-align: center;
+}
+
+footer{
+    background-color: #00800087;
+    width: 100%;
+    height: 52px;
+    bottom: 0;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 52px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer>a{
+    margin: 5px;
+}
+
+.round-buttons{
+    margin: auto;
+    width: 40%;
+    align-content: center;
+}
+
+.round-buttons>button{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 4%;
+}
+
+.round-buttons>button:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+.title{
+    text-align: center;
+    width: 150px;
+    height: 52px;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-size: 40px;
+}
