@@ -2,15 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Twaweza</title>
+        <title>Twaweza | Login</title>
         <link rel="icon" sizes="192x192" href="static/Logo.png">
         <link rel="stylesheet" href="css/master.css"/>
+        <link rel="stylesheet" href="css/login.css"/>
         <script type="text/javascript" src="js/twaweza.js"></script>
     </head>
     <body>
-        <video src="static/MagicalKenya.MKV" autoplay muted loop poster="static/MagicalKenya.png">
-
-        </video>
         <header>
             <a href="home.html" id="logo">
                 <img src="static/Logo.png"/>
@@ -32,18 +30,20 @@
 
         </div>
         <h1 class="title">Twaweza</h1>
-        <div class="round-buttons">
-            <button type="button" name="button">Book</button>
-            <button type="button" name="button">Events</button>
-            <button type="button" name="button">Support</button>
-            <button type="button" name="button">Services</button>
+        <div class="login">
+            <h1>Login</h1>
+            <form class="login-form" action="index.html" method="post">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="username@example.com"><br>
+                <label for="pass"></label>
+                <input type="password" name="pass" placeholder="********"><br>
+                <a href="#" style="color: grey; font-size: 14px; text-decoration: underline;">Forgot password?</a>
+                <input type="submit" name="Login" class="login-button" value="Login">
+            </form>
+            <hr/>
+            <button type="button" name="facebook" style="background-color: blue;">Login with Facebook</button>
+            <button type="button" name="google" style="background-color: red;">Login with Google</button>
         </div>
-        <article>
-            <h1>Travel & tour guide.</h1>
-            <p>Find a perfect vacation place and we will take you there.</p>
-            <p>All your expenses are covered by us. From hotel bills to coffee bill at the coffee shop!</p>
-            <p>Why worry about money while vacating?</p>
-        </article>
         <footer>
             <a href="#">Twaweza &copy; 2017</a>
             <a href="#">Privacy & Legal</a>
