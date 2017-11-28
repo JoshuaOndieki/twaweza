@@ -1,0 +1,47 @@
+body{
+    background-image: url("../static/MagicalKenya.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sf-title{
+    margin: auto;
+    color: white;
+
+}
+
+.ticket{
+    background-color: white;
+    opacity: 0.9;
+    width: 50%;
+    height: 70%;
+    margin-left: 5%;
+    float: right;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.message{
+    width: 90%;
+    height: 170px;
+}
+
+.message[placeholder]{
+    line-height: 40%;
+    font-size: 22px;
+}
+
+
+.ticket, .notice{
+    display: inline-block;
+}
+
+.notice{
+    background-color: white;
+    float: left;
+}
+
+html, body{
+    overflow-y: auto;
+}

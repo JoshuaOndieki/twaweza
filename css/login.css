@@ -1,5 +1,8 @@
 body{
     background-image: url("../static/lions.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .login{

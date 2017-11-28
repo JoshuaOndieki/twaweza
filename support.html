@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twaweza | Login</title>
+        <link rel="icon" sizes="192x192" href="static/Logo.png">
+        <link rel="stylesheet" href="css/master.css"/>
+        <link rel="stylesheet" href="css/support.css"/>
+        <script type="text/javascript" src="js/twaweza.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="home.html" id="logo">
+                <img src="static/Logo.png"/>
+            </a>
+            <nav>
+                <p class="sf-title">SUPPORT & FORUM</p>
+                <form class="" action="index.html" method="post">
+                    <input type="text" name="q" value="" placeholder="search the forum..">
+                    <input type="submit" name="submit" value="Search">
+                </form>
+            </nav>
+            <div id="showhidebar" onclick="showHideBar(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+        </header>
+
+        <div id="sidebar">
+
+        </div>
+        <div class="ticket">
+            <h1>We're here to help.</h1>
+            <p>You can search the forum or use the form below to open a ticket for assistance. Thank you for being our valued customer!</p>
+            <form class="ticket-form" action="index.html" method="post">
+                <label for="name">Name</label>
+                <input type="name" name="name" value="" placeholder="John Doe"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" value="" placeholder="username@example.com"><br>
+                <label for="category">Ticket category</label>
+                <select class="category" name="category">
+                    <option value="General">General</option>
+                    <option value="Bookings">Bookings</option>
+                    <option value="Enquiries">Enquiries</option>
+                    <option value="Requests">Requests</option>
+                </select><br>
+                <label for="message"></label>
+                <input type="textarea" name="message" class="message" value="" placeholder="Type your message here..">
+                <input type="submit" name="submit" value="Create ticket" style="margin: 5%;">
+            </form>
+        </div>
+        <div class="notice">
+            <h1>Customer support</h1>
+            <p>Feel free to contact us anytime.</p>
+            <p>Though feedback will be provided within the below working hours.</p>
+            <table>
+                <tr>
+                    <th>Day(s)</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>08:00 - 18:00 GMT+3</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>No customer service will be offered.</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>14:00 - 18:00 GMT+3 </td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <a href="#">Twaweza &copy; 2017</a>
+            <a href="#">Privacy & Legal</a>
+            <a href="#">FAQs</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+        </footer>
+    </body>
+</html>
