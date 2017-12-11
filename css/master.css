@@ -116,7 +116,7 @@ footer>a{
     align-content: center;
 }
 
-.round-buttons>button{
+.round-buttons>a>button{
     color: white;
     background-color: black;
     opacity: 0.5;
@@ -126,7 +126,7 @@ footer>a{
     margin: 4%;
 }
 
-.round-buttons>button:hover{
+.round-buttons>a>button:hover{
     background-color: green;
     cursor:pointer;
 }
