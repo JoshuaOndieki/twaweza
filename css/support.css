@@ -22,15 +22,15 @@ body{
     margin-top: 2%;
 }
 
-.message{
+/*.message{
     width: 90%;
     height: 170px;
-}
+}*/
 
-.message[placeholder]{
+/*.message[placeholder]{
     line-height: 40%;
     font-size: 22px;
-}
+}*/
 
 
 .ticket, .notice{
