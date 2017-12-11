@@ -74,10 +74,6 @@ nav>a{
     margin: 7px;
 }
 
-#sidebar{
-
-}
-
 article{
     background-color: #00000085;
     width: 40%;
@@ -102,9 +98,7 @@ footer{
     text-align: center;
     vertical-align: middle;
     line-height: 52px;
-
 }
-
 
 a{
     text-decoration: none;
@@ -147,9 +141,6 @@ footer>a{
     font-size: 40px;
 }
 
-
-
-
 #sidebar {
     height: 100%;
     width: 0;
@@ -162,6 +153,7 @@ footer>a{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    margin-left: 82%;
 }
 
 #sidebar a {
@@ -183,4 +175,31 @@ footer>a{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+/*#partners{
+    background-color: #00dcff8c;
+}*/
+
+
+#partners-h1{
+    width: fit-content;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    text-decoration: underline;
+    text-decoration-color: #00dcff8c;
+}
+
+#partners{
+    margin: auto;
+    background-color: #00800087;
+    margin-bottom: -1px;
+}
+
+#partners>a>img{
+    vertical-align: middle;
+    margin: 0 3%;
+    max-width: 9%;
+    max-height: 9%;
 }

@@ -8,7 +8,7 @@
         <script type="text/javascript" src="js/twaweza.js"></script>
     </head>
     <body>
-        <video src="static/MagicalKenya.MKV" autoplay muted loop poster="static/MagicalKenya.png">
+        <video id="thisismyKenya" src="static/MagicalKenya.MKV" muted loop poster="static/MagicalKenya.png">
 
         </video>
         <header>
@@ -16,10 +16,10 @@
                 <img src="static/Logo.png"/>
             </a>
             <nav>
-                <a href="#">FAMILY</a>
-                <a href="#">BUSINESS</a>
-                <a href="#">HONEYMOON</a>
-                <a href="#">SOCIAL</a>
+                <a href="family.html">FAMILY</a>
+                <a href="business.html">BUSINESS</a>
+                <a href="honeymoon.html">HONEYMOON</a>
+                <a href="social.html">SOCIAL</a>
             </nav>
             <div id="showhidebar" onclick="showHideBar(this)">
               <div class="bar1"></div>
@@ -30,14 +30,14 @@
 
         <div id="sidebar">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="#">Login</a>
+              <a href="login.html">Login</a>
         </div>
         <h1 class="title">Twaweza</h1>
         <div class="round-buttons">
             <button type="button" name="button">Book</button>
-            <button type="button" name="button">Events</button>
+            <button type="button" name="button">Gallery</button>
             <button type="button" name="button">Support</button>
-            <button type="button" name="button">Services</button>
+            <button type="button" name="button">About Us</button>
         </div>
         <article>
             <h1>Travel & tour guide.</h1>
@@ -45,12 +45,33 @@
             <p>All your expenses are covered by us. From hotel bills to coffee bill at the coffee shop!</p>
             <p>Why worry about money while vacating?</p>
         </article>
+        <h1 id="partners-h1">Partners</h1>
+        <div id="partners">
+            <a href="http://www.magicalkenya.com/">
+                <img src="static/magicalkenyalogo.png" alt="Magical Kenya">
+            </a>
+            <a href="http://www.kws.go.ke/">
+                <img src="static/kws.png" alt="Kenya Wildlife Services">
+            </a>
+            <a href="http://www.museums.or.ke/">
+                <img src="static/museums.png" alt="National Museums of Kenya">
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Kenya">
+                <img src="static/republicofkenya.png" alt="Republic of Kenya">
+            </a>
+            <a href="http://www.ktb.go.ke">
+                <img src="static/ktblogo.png" alt="Kenya Tourism Board">
+            </a>
+            <a href="https://www.kenya-airways.com/ke/">
+                <img src="static/kenyaairways.png" alt="Kenya Airways">
+            </a>
+        </div>
         <footer>
-            <a href="#">Twaweza &copy; 2017</a>
-            <a href="#">Privacy & Legal</a>
-            <a href="#">FAQs</a>
-            <a href="#">Careers</a>
-            <a href="#">Contact</a>
+            <a href="aboutus.html">Twaweza &copy; 2017</a>
+            <a href="legal.html">Privacy & Legal</a>
+            <a href="faq.html">FAQs</a>
+            <a href="careers.html">Careers</a>
+            <a href="support.html">Contact</a>
         </footer>
     </body>
 </html>
