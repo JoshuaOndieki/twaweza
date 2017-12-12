@@ -1,8 +1,8 @@
 html, body{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 body{
@@ -194,7 +194,6 @@ footer>a{
 #partners{
     margin: auto;
     background-color: #00800087;
-    margin-bottom: -1px;
 }
 
 #partners>a>img{
