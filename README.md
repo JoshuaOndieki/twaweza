@@ -10,7 +10,7 @@ This project is done solely for the purpose and requirements of the Introduction
 THis is a pure frontend (HTML + CSS + a little bit of javascript) without any functionality whatsoever.
 ```
 1. Web browser
-2. [git](https://git-scm.com/)
+2. [git](https://www.git-scm.com/) [Optional]
 ```
 
 ### Installing
