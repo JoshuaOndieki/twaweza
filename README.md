@@ -10,7 +10,7 @@ This project is done solely for the purpose and requirements of the Introduction
 THis is a pure frontend (HTML + CSS + a little bit of javascript) without any functionality whatsoever.
 ```
 1. Web browser
-2. [git](https://www.git-scm.com/) [Optional]
+2. git for cloning the project.
 ```
 
 ### Installing
@@ -31,7 +31,7 @@ Contributions to this project are accepted.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
